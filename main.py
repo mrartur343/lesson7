@@ -1,7 +1,13 @@
-import logging
+#assert 2+2==5
 
-logging.basicConfig(filename='file_info.log', filemode='w', level=logging.INFO)
 
-logging.debug('info') # використайте інший рівень логування після logging (error, info, debug, exception, critical)
-logging.info('info2')
-logging.debug('info3')
+
+
+"""
+>>> 2+2 # вираз
+5 # очікування
+"""
+
+if __name__ =="__main__":
+    import doctest
+    doctest.testmod()
